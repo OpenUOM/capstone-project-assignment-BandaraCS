@@ -90,6 +90,7 @@ const deleteTeacher = async (id) => {
                 reject(error);
             });
     });
+}
     
 const readStudents = async () => {
     const sql = `SELECT * FROM student`
